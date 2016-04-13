@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9053" systemVersion="15A284" minimumToolsVersion="Xcode 7.0">
+    <entity name="CDEtsyCood" representedClassName="CDEtsyCood" syncable="YES">
+        <attribute name="descr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDEtsyCood" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>

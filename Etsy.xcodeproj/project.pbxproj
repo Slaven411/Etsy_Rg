@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6522431BBE998400668045 /* EtsyGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6522421BBE998400668045 /* EtsyGood.m */; };
+		1DB3F3C41BB7D731005D6B1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3C31BB7D731005D6B1D /* main.m */; };
+		1DB3F3C71BB7D731005D6B1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3C61BB7D731005D6B1D /* AppDelegate.m */; };
+		1DB3F3CA1BB7D731005D6B1D /* Etsy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3C81BB7D731005D6B1D /* Etsy.xcdatamodeld */; };
+		1DB3F3D01BB7D731005D6B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3F3CE1BB7D731005D6B1D /* Main.storyboard */; };
+		1DB3F3D21BB7D731005D6B1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3F3D11BB7D731005D6B1D /* Images.xcassets */; };
+		1DB3F3D51BB7D731005D6B1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3F3D31BB7D731005D6B1D /* LaunchScreen.xib */; };
+		1DB3F3E11BB7D731005D6B1D /* EtsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3E01BB7D731005D6B1D /* EtsyTests.m */; };
+		1DB3F3EC1BB7DA2F005D6B1D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3EB1BB7DA2F005D6B1D /* SearchViewController.m */; };
+		1DB3F4011BB7DF40005D6B1D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3EF1BB7DF3F005D6B1D /* AFHTTPRequestOperation.m */; };
+		1DB3F4021BB7DF40005D6B1D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3F11BB7DF3F005D6B1D /* AFHTTPRequestOperationManager.m */; };
+		1DB3F4031BB7DF40005D6B1D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3F31BB7DF3F005D6B1D /* AFHTTPSessionManager.m */; };
+		1DB3F4041BB7DF40005D6B1D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3F61BB7DF3F005D6B1D /* AFNetworkReachabilityManager.m */; };
+		1DB3F4051BB7DF40005D6B1D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3F81BB7DF3F005D6B1D /* AFSecurityPolicy.m */; };
+		1DB3F4061BB7DF40005D6B1D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3FA1BB7DF40005D6B1D /* AFURLConnectionOperation.m */; };
+		1DB3F4071BB7DF40005D6B1D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3FC1BB7DF40005D6B1D /* AFURLRequestSerialization.m */; };
+		1DB3F4081BB7DF40005D6B1D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F3FE1BB7DF40005D6B1D /* AFURLResponseSerialization.m */; };
+		1DB3F4091BB7DF40005D6B1D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F4001BB7DF40005D6B1D /* AFURLSessionManager.m */; };
+		1DB3F40B1BB7DF55005D6B1D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3F40A1BB7DF55005D6B1D /* Security.framework */; };
+		1DB3F40D1BB7DF5E005D6B1D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3F40C1BB7DF5E005D6B1D /* CFNetwork.framework */; };
+		1DB3F40F1BB7DF68005D6B1D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3F40E1BB7DF68005D6B1D /* MobileCoreServices.framework */; };
+		1DB3F4111BB7DFB9005D6B1D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB3F4101BB7DFB9005D6B1D /* SystemConfiguration.framework */; };
+		1DB3F4191BB7E155005D6B1D /* EtsyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F4181BB7E155005D6B1D /* EtsyCategory.m */; };
+		1DB3F41D1BB7E27C005D6B1D /* EtsyNetworkSevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F41C1BB7E27C005D6B1D /* EtsyNetworkSevices.m */; };
+		1DB3F4211BB7EC3E005D6B1D /* CategoriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3F4201BB7EC3E005D6B1D /* CategoriesManager.m */; };
+		1DF36D3C1BE23C870061878F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D2B1BE23C870061878F /* AFNetworkActivityIndicatorManager.m */; };
+		1DF36D3D1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D2D1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.m */; };
+		1DF36D3E1BE23C870061878F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D2F1BE23C870061878F /* UIAlertView+AFNetworking.m */; };
+		1DF36D3F1BE23C870061878F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D311BE23C870061878F /* UIButton+AFNetworking.m */; };
+		1DF36D401BE23C870061878F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D341BE23C870061878F /* UIImageView+AFNetworking.m */; };
+		1DF36D411BE23C870061878F /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D371BE23C870061878F /* UIProgressView+AFNetworking.m */; };
+		1DF36D421BE23C870061878F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D391BE23C870061878F /* UIRefreshControl+AFNetworking.m */; };
+		1DF36D431BE23C870061878F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D3B1BE23C870061878F /* UIWebView+AFNetworking.m */; };
+		1DF36D461BE244380061878F /* ItemDeteilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF36D451BE244380061878F /* ItemDeteilViewController.m */; };
+		1DF4715F1BC909FF00EB4BA3 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4715E1BC909FF00EB4BA3 /* ItemsViewController.m */; };
+		1DF471621BC90A3500EB4BA3 /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF471611BC90A3500EB4BA3 /* ItemCollectionViewCell.m */; };
+		1DF471641BC913EE00EB4BA3 /* itemPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF471631BC913EE00EB4BA3 /* itemPlaceholder.png */; };
+		1DF944971BEA2BFC00066526 /* SavedItemsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF944961BEA2BFC00066526 /* SavedItemsManager.m */; };
+		1DF9449A1BEB77C800066526 /* EtsyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DF944981BEB77C800066526 /* EtsyModel.xcdatamodeld */; };
+		1DF944A01BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF9449D1BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.m */; };
+		1DF944A11BEB7A2E00066526 /* CDEtsyCood.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF9449F1BEB7A2E00066526 /* CDEtsyCood.m */; };
+		F187712340E0CB828DED5ECC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C48D7E605EDF8BA7CD8C8FAC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB3F3DB1BB7D731005D6B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB3F3B61BB7D731005D6B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB3F3BD1BB7D731005D6B1D;
+			remoteInfo = Etsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EA8E9C0051C00E3CBEC72E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1D6522411BBE998400668045 /* EtsyGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtsyGood.h; sourceTree = "<group>"; };
+		1D6522421BBE998400668045 /* EtsyGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtsyGood.m; sourceTree = "<group>"; };
+		1DB3F3BE1BB7D731005D6B1D /* Etsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB3F3C21BB7D731005D6B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB3F3C31BB7D731005D6B1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DB3F3C51BB7D731005D6B1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DB3F3C61BB7D731005D6B1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DB3F3C91BB7D731005D6B1D /* Etsy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Etsy.xcdatamodel; sourceTree = "<group>"; };
+		1DB3F3CF1BB7D731005D6B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DB3F3D11BB7D731005D6B1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DB3F3D41BB7D731005D6B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1DB3F3DA1BB7D731005D6B1D /* EtsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB3F3DF1BB7D731005D6B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB3F3E01BB7D731005D6B1D /* EtsyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtsyTests.m; sourceTree = "<group>"; };
+		1DB3F3EA1BB7DA2F005D6B1D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		1DB3F3EB1BB7DA2F005D6B1D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		1DB3F3EE1BB7DF3F005D6B1D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		1DB3F3EF1BB7DF3F005D6B1D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		1DB3F3F01BB7DF3F005D6B1D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		1DB3F3F11BB7DF3F005D6B1D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		1DB3F3F21BB7DF3F005D6B1D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		1DB3F3F31BB7DF3F005D6B1D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		1DB3F3F41BB7DF3F005D6B1D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		1DB3F3F51BB7DF3F005D6B1D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1DB3F3F61BB7DF3F005D6B1D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		1DB3F3F71BB7DF3F005D6B1D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		1DB3F3F81BB7DF3F005D6B1D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		1DB3F3F91BB7DF40005D6B1D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		1DB3F3FA1BB7DF40005D6B1D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1DB3F3FB1BB7DF40005D6B1D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		1DB3F3FC1BB7DF40005D6B1D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		1DB3F3FD1BB7DF40005D6B1D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		1DB3F3FE1BB7DF40005D6B1D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		1DB3F3FF1BB7DF40005D6B1D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		1DB3F4001BB7DF40005D6B1D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		1DB3F40A1BB7DF55005D6B1D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1DB3F40C1BB7DF5E005D6B1D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1DB3F40E1BB7DF68005D6B1D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1DB3F4101BB7DFB9005D6B1D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DB3F4171BB7E155005D6B1D /* EtsyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtsyCategory.h; sourceTree = "<group>"; };
+		1DB3F4181BB7E155005D6B1D /* EtsyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtsyCategory.m; sourceTree = "<group>"; };
+		1DB3F41B1BB7E27C005D6B1D /* EtsyNetworkSevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EtsyNetworkSevices.h; sourceTree = "<group>"; };
+		1DB3F41C1BB7E27C005D6B1D /* EtsyNetworkSevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EtsyNetworkSevices.m; sourceTree = "<group>"; };
+		1DB3F41F1BB7EC3E005D6B1D /* CategoriesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesManager.h; sourceTree = "<group>"; };
+		1DB3F4201BB7EC3E005D6B1D /* CategoriesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesManager.m; sourceTree = "<group>"; };
+		1DF36D2A1BE23C870061878F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		1DF36D2B1BE23C870061878F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		1DF36D2C1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D2D1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D2E1BE23C870061878F /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D2F1BE23C870061878F /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D301BE23C870061878F /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D311BE23C870061878F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D321BE23C870061878F /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D331BE23C870061878F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D341BE23C870061878F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D351BE23C870061878F /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D361BE23C870061878F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D371BE23C870061878F /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D381BE23C870061878F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D391BE23C870061878F /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D3A1BE23C870061878F /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		1DF36D3B1BE23C870061878F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		1DF36D441BE244380061878F /* ItemDeteilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDeteilViewController.h; sourceTree = "<group>"; };
+		1DF36D451BE244380061878F /* ItemDeteilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDeteilViewController.m; sourceTree = "<group>"; };
+		1DF4715D1BC909FF00EB4BA3 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		1DF4715E1BC909FF00EB4BA3 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		1DF471601BC90A3500EB4BA3 /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		1DF471611BC90A3500EB4BA3 /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
+		1DF471631BC913EE00EB4BA3 /* itemPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itemPlaceholder.png; sourceTree = "<group>"; };
+		1DF944951BEA2BFC00066526 /* SavedItemsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedItemsManager.h; sourceTree = "<group>"; };
+		1DF944961BEA2BFC00066526 /* SavedItemsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedItemsManager.m; sourceTree = "<group>"; };
+		1DF944991BEB77C800066526 /* EtsyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EtsyModel.xcdatamodel; sourceTree = "<group>"; };
+		1DF9449C1BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDEtsyCood+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1DF9449D1BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDEtsyCood+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1DF9449E1BEB7A2E00066526 /* CDEtsyCood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDEtsyCood.h; sourceTree = "<group>"; };
+		1DF9449F1BEB7A2E00066526 /* CDEtsyCood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDEtsyCood.m; sourceTree = "<group>"; };
+		1EE6111448D402CB857E4512 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C48D7E605EDF8BA7CD8C8FAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB3F3BB1BB7D731005D6B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB3F4111BB7DFB9005D6B1D /* SystemConfiguration.framework in Frameworks */,
+				1DB3F40F1BB7DF68005D6B1D /* MobileCoreServices.framework in Frameworks */,
+				1DB3F40D1BB7DF5E005D6B1D /* CFNetwork.framework in Frameworks */,
+				1DB3F40B1BB7DF55005D6B1D /* Security.framework in Frameworks */,
+				F187712340E0CB828DED5ECC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB3F3D71BB7D731005D6B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AA75FA623EBD9D415C3D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48D7E605EDF8BA7CD8C8FAC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB3F3B51BB7D731005D6B1D = {
+			isa = PBXGroup;
+			children = (
+				1DF944981BEB77C800066526 /* EtsyModel.xcdatamodeld */,
+				1DB3F4101BB7DFB9005D6B1D /* SystemConfiguration.framework */,
+				1DB3F40E1BB7DF68005D6B1D /* MobileCoreServices.framework */,
+				1DB3F40C1BB7DF5E005D6B1D /* CFNetwork.framework */,
+				1DB3F40A1BB7DF55005D6B1D /* Security.framework */,
+				1DB3F3C01BB7D731005D6B1D /* Etsy */,
+				1DB3F3DD1BB7D731005D6B1D /* EtsyTests */,
+				1DB3F3BF1BB7D731005D6B1D /* Products */,
+				4EDF9BBF9A0163F14D029DD8 /* Pods */,
+				14AA75FA623EBD9D415C3D00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB3F3BF1BB7D731005D6B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3F3BE1BB7D731005D6B1D /* Etsy.app */,
+				1DB3F3DA1BB7D731005D6B1D /* EtsyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB3F3C01BB7D731005D6B1D /* Etsy */ = {
+			isa = PBXGroup;
+			children = (
+				1DF471631BC913EE00EB4BA3 /* itemPlaceholder.png */,
+				1DB3F41E1BB7EC21005D6B1D /* Controllers */,
+				1DB3F41A1BB7E22E005D6B1D /* NetworkController */,
+				1DB3F4161BB7E0B3005D6B1D /* ViewControllers */,
+				1DB3F4151BB7E0B1005D6B1D /* Models */,
+				1DB3F3ED1BB7DF25005D6B1D /* AFNetworking */,
+				1DB3F3C51BB7D731005D6B1D /* AppDelegate.h */,
+				1DB3F3C61BB7D731005D6B1D /* AppDelegate.m */,
+				1DB3F3CE1BB7D731005D6B1D /* Main.storyboard */,
+				1DB3F3D11BB7D731005D6B1D /* Images.xcassets */,
+				1DB3F3D31BB7D731005D6B1D /* LaunchScreen.xib */,
+				1DB3F3C81BB7D731005D6B1D /* Etsy.xcdatamodeld */,
+				1DB3F3C11BB7D731005D6B1D /* Supporting Files */,
+			);
+			path = Etsy;
+			sourceTree = "<group>";
+		};
+		1DB3F3C11BB7D731005D6B1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3F3C21BB7D731005D6B1D /* Info.plist */,
+				1DB3F3C31BB7D731005D6B1D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DB3F3DD1BB7D731005D6B1D /* EtsyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3F3E01BB7D731005D6B1D /* EtsyTests.m */,
+				1DB3F3DE1BB7D731005D6B1D /* Supporting Files */,
+			);
+			path = EtsyTests;
+			sourceTree = "<group>";
+		};
+		1DB3F3DE1BB7D731005D6B1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3F3DF1BB7D731005D6B1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DB3F3ED1BB7DF25005D6B1D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1DF36D291BE23C750061878F /* UIKit+AF */,
+				1DB3F3EE1BB7DF3F005D6B1D /* AFHTTPRequestOperation.h */,
+				1DB3F3EF1BB7DF3F005D6B1D /* AFHTTPRequestOperation.m */,
+				1DB3F3F01BB7DF3F005D6B1D /* AFHTTPRequestOperationManager.h */,
+				1DB3F3F11BB7DF3F005D6B1D /* AFHTTPRequestOperationManager.m */,
+				1DB3F3F21BB7DF3F005D6B1D /* AFHTTPSessionManager.h */,
+				1DB3F3F31BB7DF3F005D6B1D /* AFHTTPSessionManager.m */,
+				1DB3F3F41BB7DF3F005D6B1D /* AFNetworking.h */,
+				1DB3F3F51BB7DF3F005D6B1D /* AFNetworkReachabilityManager.h */,
+				1DB3F3F61BB7DF3F005D6B1D /* AFNetworkReachabilityManager.m */,
+				1DB3F3F71BB7DF3F005D6B1D /* AFSecurityPolicy.h */,
+				1DB3F3F81BB7DF3F005D6B1D /* AFSecurityPolicy.m */,
+				1DB3F3F91BB7DF40005D6B1D /* AFURLConnectionOperation.h */,
+				1DB3F3FA1BB7DF40005D6B1D /* AFURLConnectionOperation.m */,
+				1DB3F3FB1BB7DF40005D6B1D /* AFURLRequestSerialization.h */,
+				1DB3F3FC1BB7DF40005D6B1D /* AFURLRequestSerialization.m */,
+				1DB3F3FD1BB7DF40005D6B1D /* AFURLResponseSerialization.h */,
+				1DB3F3FE1BB7DF40005D6B1D /* AFURLResponseSerialization.m */,
+				1DB3F3FF1BB7DF40005D6B1D /* AFURLSessionManager.h */,
+				1DB3F4001BB7DF40005D6B1D /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		1DB3F4151BB7E0B1005D6B1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DF9449B1BEB79B600066526 /* CoreDataModels */,
+				1DB3F4171BB7E155005D6B1D /* EtsyCategory.h */,
+				1D6522411BBE998400668045 /* EtsyGood.h */,
+				1D6522421BBE998400668045 /* EtsyGood.m */,
+				1DB3F4181BB7E155005D6B1D /* EtsyCategory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1DB3F4161BB7E0B3005D6B1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DF4715C1BC909CB00EB4BA3 /* ItemViewController */,
+				1DB3F3EA1BB7DA2F005D6B1D /* SearchViewController.h */,
+				1DB3F3EB1BB7DA2F005D6B1D /* SearchViewController.m */,
+				1DF36D441BE244380061878F /* ItemDeteilViewController.h */,
+				1DF36D451BE244380061878F /* ItemDeteilViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1DB3F41A1BB7E22E005D6B1D /* NetworkController */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3F41B1BB7E27C005D6B1D /* EtsyNetworkSevices.h */,
+				1DB3F41C1BB7E27C005D6B1D /* EtsyNetworkSevices.m */,
+			);
+			name = NetworkController;
+			sourceTree = "<group>";
+		};
+		1DB3F41E1BB7EC21005D6B1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DB3F41F1BB7EC3E005D6B1D /* CategoriesManager.h */,
+				1DB3F4201BB7EC3E005D6B1D /* CategoriesManager.m */,
+				1DF944951BEA2BFC00066526 /* SavedItemsManager.h */,
+				1DF944961BEA2BFC00066526 /* SavedItemsManager.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1DF36D291BE23C750061878F /* UIKit+AF */ = {
+			isa = PBXGroup;
+			children = (
+				1DF36D2A1BE23C870061878F /* AFNetworkActivityIndicatorManager.h */,
+				1DF36D2B1BE23C870061878F /* AFNetworkActivityIndicatorManager.m */,
+				1DF36D2C1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.h */,
+				1DF36D2D1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.m */,
+				1DF36D2E1BE23C870061878F /* UIAlertView+AFNetworking.h */,
+				1DF36D2F1BE23C870061878F /* UIAlertView+AFNetworking.m */,
+				1DF36D301BE23C870061878F /* UIButton+AFNetworking.h */,
+				1DF36D311BE23C870061878F /* UIButton+AFNetworking.m */,
+				1DF36D321BE23C870061878F /* UIImage+AFNetworking.h */,
+				1DF36D331BE23C870061878F /* UIImageView+AFNetworking.h */,
+				1DF36D341BE23C870061878F /* UIImageView+AFNetworking.m */,
+				1DF36D351BE23C870061878F /* UIKit+AFNetworking.h */,
+				1DF36D361BE23C870061878F /* UIProgressView+AFNetworking.h */,
+				1DF36D371BE23C870061878F /* UIProgressView+AFNetworking.m */,
+				1DF36D381BE23C870061878F /* UIRefreshControl+AFNetworking.h */,
+				1DF36D391BE23C870061878F /* UIRefreshControl+AFNetworking.m */,
+				1DF36D3A1BE23C870061878F /* UIWebView+AFNetworking.h */,
+				1DF36D3B1BE23C870061878F /* UIWebView+AFNetworking.m */,
+			);
+			name = "UIKit+AF";
+			sourceTree = "<group>";
+		};
+		1DF4715C1BC909CB00EB4BA3 /* ItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1DF4715D1BC909FF00EB4BA3 /* ItemsViewController.h */,
+				1DF4715E1BC909FF00EB4BA3 /* ItemsViewController.m */,
+				1DF471601BC90A3500EB4BA3 /* ItemCollectionViewCell.h */,
+				1DF471611BC90A3500EB4BA3 /* ItemCollectionViewCell.m */,
+			);
+			name = ItemViewController;
+			sourceTree = "<group>";
+		};
+		1DF9449B1BEB79B600066526 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DF9449C1BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.h */,
+				1DF9449D1BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.m */,
+				1DF9449E1BEB7A2E00066526 /* CDEtsyCood.h */,
+				1DF9449F1BEB7A2E00066526 /* CDEtsyCood.m */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		4EDF9BBF9A0163F14D029DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EE6111448D402CB857E4512 /* Pods.debug.xcconfig */,
+				07EA8E9C0051C00E3CBEC72E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB3F3BD1BB7D731005D6B1D /* Etsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB3F3E41BB7D731005D6B1D /* Build configuration list for PBXNativeTarget "Etsy" */;
+			buildPhases = (
+				7A1CF9676A1D929021934F80 /* Check Pods Manifest.lock */,
+				1DB3F3BA1BB7D731005D6B1D /* Sources */,
+				1DB3F3BB1BB7D731005D6B1D /* Frameworks */,
+				1DB3F3BC1BB7D731005D6B1D /* Resources */,
+				9E2078661BFCB0789629B985 /* Embed Pods Frameworks */,
+				DDEB770883CDB6C21F588151 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etsy;
+			productName = Etsy;
+			productReference = 1DB3F3BE1BB7D731005D6B1D /* Etsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB3F3D91BB7D731005D6B1D /* EtsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB3F3E71BB7D731005D6B1D /* Build configuration list for PBXNativeTarget "EtsyTests" */;
+			buildPhases = (
+				1DB3F3D61BB7D731005D6B1D /* Sources */,
+				1DB3F3D71BB7D731005D6B1D /* Frameworks */,
+				1DB3F3D81BB7D731005D6B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB3F3DC1BB7D731005D6B1D /* PBXTargetDependency */,
+			);
+			name = EtsyTests;
+			productName = EtsyTests;
+			productReference = 1DB3F3DA1BB7D731005D6B1D /* EtsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB3F3B61BB7D731005D6B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Slava;
+				TargetAttributes = {
+					1DB3F3BD1BB7D731005D6B1D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1DB3F3D91BB7D731005D6B1D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1DB3F3BD1BB7D731005D6B1D;
+					};
+				};
+			};
+			buildConfigurationList = 1DB3F3B91BB7D731005D6B1D /* Build configuration list for PBXProject "Etsy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB3F3B51BB7D731005D6B1D;
+			productRefGroup = 1DB3F3BF1BB7D731005D6B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB3F3BD1BB7D731005D6B1D /* Etsy */,
+				1DB3F3D91BB7D731005D6B1D /* EtsyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB3F3BC1BB7D731005D6B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF471641BC913EE00EB4BA3 /* itemPlaceholder.png in Resources */,
+				1DB3F3D01BB7D731005D6B1D /* Main.storyboard in Resources */,
+				1DB3F3D51BB7D731005D6B1D /* LaunchScreen.xib in Resources */,
+				1DB3F3D21BB7D731005D6B1D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB3F3D81BB7D731005D6B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A1CF9676A1D929021934F80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2078661BFCB0789629B985 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEB770883CDB6C21F588151 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB3F3BA1BB7D731005D6B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB3F3C71BB7D731005D6B1D /* AppDelegate.m in Sources */,
+				1DB3F4051BB7DF40005D6B1D /* AFSecurityPolicy.m in Sources */,
+				1DF36D461BE244380061878F /* ItemDeteilViewController.m in Sources */,
+				1DB3F3C41BB7D731005D6B1D /* main.m in Sources */,
+				1DB3F41D1BB7E27C005D6B1D /* EtsyNetworkSevices.m in Sources */,
+				1DF36D411BE23C870061878F /* UIProgressView+AFNetworking.m in Sources */,
+				1DF36D3E1BE23C870061878F /* UIAlertView+AFNetworking.m in Sources */,
+				1DF36D3C1BE23C870061878F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				1DF9449A1BEB77C800066526 /* EtsyModel.xcdatamodeld in Sources */,
+				1DF944971BEA2BFC00066526 /* SavedItemsManager.m in Sources */,
+				1DB3F4021BB7DF40005D6B1D /* AFHTTPRequestOperationManager.m in Sources */,
+				1DF36D3F1BE23C870061878F /* UIButton+AFNetworking.m in Sources */,
+				1DF36D3D1BE23C870061878F /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				1DB3F4191BB7E155005D6B1D /* EtsyCategory.m in Sources */,
+				1DF36D431BE23C870061878F /* UIWebView+AFNetworking.m in Sources */,
+				1DB3F4061BB7DF40005D6B1D /* AFURLConnectionOperation.m in Sources */,
+				1DB3F4011BB7DF40005D6B1D /* AFHTTPRequestOperation.m in Sources */,
+				1D6522431BBE998400668045 /* EtsyGood.m in Sources */,
+				1DB3F3EC1BB7DA2F005D6B1D /* SearchViewController.m in Sources */,
+				1DF944A01BEB7A2E00066526 /* CDEtsyCood+CoreDataProperties.m in Sources */,
+				1DB3F4071BB7DF40005D6B1D /* AFURLRequestSerialization.m in Sources */,
+				1DB3F4031BB7DF40005D6B1D /* AFHTTPSessionManager.m in Sources */,
+				1DF471621BC90A3500EB4BA3 /* ItemCollectionViewCell.m in Sources */,
+				1DB3F4041BB7DF40005D6B1D /* AFNetworkReachabilityManager.m in Sources */,
+				1DF944A11BEB7A2E00066526 /* CDEtsyCood.m in Sources */,
+				1DB3F4081BB7DF40005D6B1D /* AFURLResponseSerialization.m in Sources */,
+				1DF36D421BE23C870061878F /* UIRefreshControl+AFNetworking.m in Sources */,
+				1DF36D401BE23C870061878F /* UIImageView+AFNetworking.m in Sources */,
+				1DB3F4091BB7DF40005D6B1D /* AFURLSessionManager.m in Sources */,
+				1DF4715F1BC909FF00EB4BA3 /* ItemsViewController.m in Sources */,
+				1DB3F3CA1BB7D731005D6B1D /* Etsy.xcdatamodeld in Sources */,
+				1DB3F4211BB7EC3E005D6B1D /* CategoriesManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB3F3D61BB7D731005D6B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB3F3E11BB7D731005D6B1D /* EtsyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB3F3DC1BB7D731005D6B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB3F3BD1BB7D731005D6B1D /* Etsy */;
+			targetProxy = 1DB3F3DB1BB7D731005D6B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DB3F3CE1BB7D731005D6B1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB3F3CF1BB7D731005D6B1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DB3F3D31BB7D731005D6B1D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB3F3D41BB7D731005D6B1D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB3F3E21BB7D731005D6B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DB3F3E31BB7D731005D6B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB3F3E51BB7D731005D6B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE6111448D402CB857E4512 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = " \"TARGET_OS_IOS=1";
+				INFOPLIST_FILE = Etsy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Et.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DB3F3E61BB7D731005D6B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EA8E9C0051C00E3CBEC72E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = " \"TARGET_OS_IOS=1";
+				INFOPLIST_FILE = Etsy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Et.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1DB3F3E81BB7D731005D6B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EtsyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Et.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etsy.app/Etsy";
+			};
+			name = Debug;
+		};
+		1DB3F3E91BB7D731005D6B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EtsyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Et.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etsy.app/Etsy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB3F3B91BB7D731005D6B1D /* Build configuration list for PBXProject "Etsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB3F3E21BB7D731005D6B1D /* Debug */,
+				1DB3F3E31BB7D731005D6B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB3F3E41BB7D731005D6B1D /* Build configuration list for PBXNativeTarget "Etsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB3F3E51BB7D731005D6B1D /* Debug */,
+				1DB3F3E61BB7D731005D6B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB3F3E71BB7D731005D6B1D /* Build configuration list for PBXNativeTarget "EtsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB3F3E81BB7D731005D6B1D /* Debug */,
+				1DB3F3E91BB7D731005D6B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DB3F3C81BB7D731005D6B1D /* Etsy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DB3F3C91BB7D731005D6B1D /* Etsy.xcdatamodel */,
+			);
+			currentVersion = 1DB3F3C91BB7D731005D6B1D /* Etsy.xcdatamodel */;
+			path = Etsy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1DF944981BEB77C800066526 /* EtsyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DF944991BEB77C800066526 /* EtsyModel.xcdatamodel */,
+			);
+			currentVersion = 1DF944991BEB77C800066526 /* EtsyModel.xcdatamodel */;
+			path = EtsyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DB3F3B61BB7D731005D6B1D /* Project object */;
+}
